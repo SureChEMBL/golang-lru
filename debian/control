@@ -1,0 +1,23 @@
+Source: golang-github-hashicorp-golang-lru
+Section: devel
+Priority: extra
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tianon Gravi <tianon@debian.org>,
+           Tim Potter <tpot@hpe.com>,
+           Anthony Fok <foka@debian.org>
+Build-Depends: debhelper (>= 10), dh-golang, golang-any
+Standards-Version: 4.0.0
+Homepage: https://github.com/hashicorp/golang-lru
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-hashicorp-golang-lru.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-hashicorp-golang-lru.git
+XS-Go-Import-Path: github.com/hashicorp/golang-lru
+Testsuite: autopkgtest-pkg-go
+
+Package: golang-github-hashicorp-golang-lru-dev
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Golang LRU cache
+ This provides the lru package which implements a fixed-size thread safe LRU
+ cache. It is based on the cache in Groupcache.
+ .
+ This package contains the source.

@@ -5,7 +5,7 @@ Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org
 Uploaders: Tianon Gravi <tianon@debian.org>,
            Tim Potter <tpot@hpe.com>,
            Anthony Fok <foka@debian.org>
-Build-Depends: debhelper (>= 10), dh-golang, golang-any
+Build-Depends: debhelper (>= 9), dh-golang, golang-any
 Standards-Version: 4.0.0
 Homepage: https://github.com/hashicorp/golang-lru
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-hashicorp-golang-lru.git
